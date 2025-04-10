@@ -5,10 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Event extends Model
+class Category extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'date', 'description', 'location', 'registration_fee']; // Add all your columns
+     protected $fillable = ['name'];
+
+     public function posts()
+{
+    return $this->hasMany(Post::class);
+}
 
 }

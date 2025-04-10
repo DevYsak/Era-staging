@@ -31,6 +31,11 @@ class PostResource extends Resource
                     ->options(['draft' => 'Draft', 'published' => 'Published'])
                     ->required(),
                 Forms\Components\DateTimePicker::make('published_at'),
+                Forms\Components\Select::make('category_id')
+    ->label('Category')
+    ->relationship('category', 'name')
+    ->required()
+
             ]);
     }
 

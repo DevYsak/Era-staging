@@ -11,6 +11,13 @@ class Post extends Model
     
     protected $fillable = [
     'title', 'slug', 'content', 'featured_image', 'status', 'published_at'
-];
+    ];
+
+    //Category Relationship
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
 
 }

@@ -19,14 +19,40 @@ class EventResource extends Resource
 {
     protected static ?string $model = Event::class;
 
+    public static function getNavigationGroup(): ?string
+{
+    return 'Events';
+}
+
+
     protected static ?string $navigationIcon = 'heroicon-o-collection';
 
     public static function form(Form $form): Form
     {
-        return $form->schema([
-        TextInput::make('title')->required(),
-        DatePicker::make('date'),
-        Textarea::make('description'),
+        return $form
+        ->schema([
+            TextInput::make('title')
+                ->required()
+                ->maxLength(255),
+            
+            DatePicker::make('date') // This will display the date picker in the form
+                ->required(),
+
+            TextInput::make('location')
+                ->required()
+                ->maxLength(255),
+
+            TextInput::make('registration_fee')
+                 ->required()
+                 ->numeric() // Ensures the input is numeric
+                 ->maxLength(10) // You can adjust the max length as needed
+                 ->label('Registration Fee'),
+            
+            Textarea::make('description')
+                ->required()
+                ->maxLength(500),
+            
+            // Add any other fields you want to show
         ]);
     }
 
@@ -34,7 +60,11 @@ class EventResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('title')->searchable(),
+                Tables\Columns\TextColumn::make('date'),
+                Tables\Columns\TextColumn::make('location'),
+                Tables\Columns\TextColumn::make('registration_fee'),
+                
             ])
             ->filters([
                 //
