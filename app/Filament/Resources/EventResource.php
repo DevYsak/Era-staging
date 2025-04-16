@@ -19,13 +19,12 @@ class EventResource extends Resource
 {
     protected static ?string $model = Event::class;
 
-    public static function getNavigationGroup(): ?string
-{
-    return 'Events';
-}
-
-
-    protected static ?string $navigationIcon = 'heroicon-o-collection';
+    protected static ?string $navigationIcon = 'heroicon-o-calendar';
+    protected static ?string $navigationGroup = 'Listings';
+    protected static function getNavigationBadge(): ?string
+        {
+        return static::getModel()::count();
+        }
 
     public static function form(Form $form): Form
     {

@@ -21,7 +21,14 @@ class AlumniResource extends Resource
 {
     protected static ?string $model = Alumni::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-collection';
+    protected static ?string $navigationIcon = 'heroicon-o-academic-cap';
+    
+    protected static function getNavigationBadge(): ?string
+{
+    return static::getModel()::count();
+}
+
+protected static ?string $navigationGroup = 'Listings';
 
   public static function form(Form $form): Form
 {

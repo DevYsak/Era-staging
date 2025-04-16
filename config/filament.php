@@ -100,14 +100,14 @@ return [
     | register pages from. You may also register pages here.
     |
     */
-
-    'pages' => [
-        'namespace' => 'App\\Filament\\Pages',
-        'path' => app_path('Filament/Pages'),
-        'register' => [
-            Pages\Dashboard::class,
-        ],
+'pages' => [
+    'namespace' => 'App\\Filament\\Pages',
+    'path' => app_path('Filament/Pages'),
+    'register' => [
+        App\Filament\Pages\Dashboard::class, // Register your custom dashboard
     ],
+    'discover' => false, // Disable auto-registration of other pages
+],
 
     /*
     |--------------------------------------------------------------------------
