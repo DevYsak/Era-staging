@@ -4,6 +4,8 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\NewsController;
+use App\Http\Controllers\NewsroomController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +36,9 @@ Route::middleware('auth')->group(function () {
 
 //Event Routes
 Route::get('/events', [EventController::class, 'index'])->name('events.index');
+
+//News Routes
+Route::get('/news', [NewsController::class, 'newsletterArchive'])->name('newsroom.newsletters');
 
 
 require __DIR__.'/auth.php';
