@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Ex Rosarians Association</title>
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/fev.png">
+        <link rel="shortcut icon" href="assets/img/fev.png">
+
+        <!-- CSS Global -->
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/plugins/jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+        <link href="assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+
+        <link href="assets/plugins/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/plugins/owlcarousel2/assets/owl.theme.default.min.css" rel="stylesheet">        
+        <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+        <link href="assets/plugins/countdown/jquery.countdown.css" rel="stylesheet">
+
+        <link href="assets/css/theme.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+        <script src="assets/plugins/iesupport/html5shiv.js"></script>
+        <script src="assets/plugins/iesupport/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body id="home" class="wide body-light multipage">
+
+        <!-- Preloader -->
+      <!--   <div id="preloader">
+            <div id="status">
+                <div class="spinner"></div>
+            </div>
+        </div> -->
+
+        <!-- Wrap all content -->
+        <div class="wrapper">
+            <!-- HEADER -->
+            <header class="header fixed">
+
+                <!-- Top Line -->
+                <div class="top-line">
+                    <div class="container">
+                        <ul class="user-menu">
+                            <li><a href="#popup-reg"  data-toggle="modal"><i class="fa fa-file-text-o"></i> Register Now</a></li>
+                            <li><a href="#popup-login" data-toggle="modal"><i class="fa fa-user"></i> Login</a></li>
+                        </ul>
+                        <div class="hot-line"><span><i class="fa fa-calendar"></i> <strong>Latest Event:</strong></span>  Standart Event Name Here  "15 October at 20:00 - 22:00 on Mazgaon, Mumbai - 400010"</div>
+                    </div>
+                </div>
+                <!-- /Top Line -->
+
+                <div class="container">
+                    <div class="header-wrapper clearfix">
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="#" class="scroll-to">
+                             <img src="assets/img/logo.png">
+                                Ex Rosarians Association
+                            </a>
+                        </div>
+                        <!-- /Logo -->
+
+                        <!-- Navigation -->
+                        <div id="mobile-menu"></div>
+                        <nav class="navigation closed clearfix">
+                            <a href="#" class="menu-toggle btn"><i class="fa fa-bars"></i></a>
+                            <ul class="sf-menu nav">
+                                <li class="active">
+                                    <a href="#">Home</a>
+                                    
+                                </li>
+                                <li >
+                                    <a href="#">Events</a>
+                                    
+                                </li>
+                               
+                                 <li>
+                                    <a href="#">Gallery</a>
+                                </li>
+                                  <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                  <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                               
+                               
+                                <li class="header-search-wrapper">
+                                    <form action="#" class="header-search-form">
+                                        <input type="text" class="form-control header-search" placeholder="Search"/>
+                                        <input type="submit" hidden="hidden"/>
+                                    </form>
+                                </li>
+                               
+                                <li><a href="#popup-donation" data-toggle="modal" class="btn btn-theme btn-submit-event">
+                                  DONATE NOW <i class="fa fa-plus-circle"></i></a></li>
+                            </ul>
+                        </nav>
+                        <!-- /Navigation -->
+
+                    </div>
+                </div>
+            </header>
+            <!-- /HEADER -->
+
+            <!-- Content area -->
+            <div class="content-area">
+
+                <div id="main">
+                     <!-- SLIDER -->
+                    <section class="page-section no-padding background-img-slider">
+                        <div class="container">
+
+                            <div id="main-slider" class="owl-carousel owl-theme">
+
+                                <!-- Slide -->
+                                <div class="item page text-center slide3">
+                                    <div class="caption">
+                                        <div class="container">
+                                            <div class="div-table">
+                                                <div class="div-cell">
+                                                    <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>Reunite. Reminisce. Rejoice!</span></h2>
+                                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300">Come home to Rosary High School — where every memory matters.</h3>
+                                                    <div class="countdown-wrapper">
+                                                        <div id="defaultCountdown" class="defaultCountdown clearfix"></div>
+                                                    </div>
+                                                    <p class="caption-text">
+                                                        <a class="btn btn-theme btn-theme-xl" href="#register" data-toggle="modal" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="item page text-center slide3">
+                                    <div class="caption">
+                                        <div class="container">
+                                            <div class="div-table">
+                                                <div class="div-cell">
+                                                    <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>One School. Endless Stories.</span></h2>
+                                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300">Celebrate the past, reconnect for the future.</h3>
+                                                    <p class="caption-text">
+                                                        <a class="btn btn-theme btn-theme-xl" href="#register" data-toggle="modal" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a><!--
+                                                        -->
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!-- Event description -->
+                        <div class="event-description">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="event-background">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                                    <div class="media">
+                                                        <span class="pull-left">
+                                                            <i class="fa fa-calendar fa-2x"></i>
+                                                        </span>
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Date</h4>
+                                                            <span>January 17- 19, 2014</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                                    <div class="media">
+                                                        <span class="pull-left">
+                                                            <i class="fa fa-map-marker fa-2x"></i>
+                                                        </span>
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Location</h4>
+                                                            <span>Mazgaon, Mumbai, India</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                                    <div class="media">
+                                                        <span class="pull-left">
+                                                            <i class="fa fa-group fa-2x media-object"></i>
+                                                        </span>
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Remaining</h4>
+                                                            <span>245 Tickets</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                                    <div class="media">
+                                                        <span class="pull-left">
+                                                            <i class="fa fa-microphone fa-2x"></i>
+                                                        </span>
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Speakers</h4>
+                                                            <span>24 Professional Speakers</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Event description -->
+
+                    </section>
+                    <!-- /SLIDER -->
+                </div>
+
+                <!-- Featured Event -->
+                <section class="page-section light featured-line xs-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="section-title two-lines">
+                                    <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex dark fa-stack-2x"></i><i class="fa fa-calendar fa-stack-1x"></i></span></span>
+                                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner"><span class="theme-color"> Featured Event </span><small>Dont Miss The Event. PHP Conference In ISTANBUL</small></span>
+                                </h1>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="countdown-wrapper countdown-featured">
+                                    <div id="defaultCountdown2" class="defaultCountdown clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#" class="btn btn-theme btn-details">Tickets &amp; Details <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Featured Event -->
+
+                <!-- PAGE -->
+                <section class="page-section">
+                    <div class="container">
+
+                        <div class="clear clearfix overflowed">
+                            <div class="section-title pull-left" style="width: auto;">
+                                <span class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-star fa-stack-1x"></i></span></span>
+                            </div>
+                            <ul id="filtrable-events" class="filtrable clearfix">
+                                <li class="all"><a href="#" data-filter="*">All</a></li>
+                                <li class="festival current"><a href="#" data-filter=".festival">Upcoming Events</a></li>
+                                <li class="playground"><a href="#" data-filter=".playground">Ongoing Events</a></li>
+                                <li class="conferance"><a href="#" data-filter=".conference">Completed Events</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="row thumbnails events vertical isotope isotope-items">
+
+                            <div class="col-md-6 col-sm-6 isotope-item festival">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                              
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 isotope-item conference">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                            
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 isotope-item miscellaneous">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 isotope-item festival playground">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                               
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 isotope-item festival conference">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                                <!-- <a href="#" class="like"><i class="fa fa-heart"></i></a> -->
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 isotope-item conference playground">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                                <!-- <a href="#" class="like"><i class="fa fa-heart-o"></i></a> -->
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 isotope-item festival conference">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                                <!--<a href="#" class="like"><i class="fa fa-heart"></i></a>-->
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 isotope-item playground">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="media">
+                                                <a href="#" class="like"><i class="fa fa-heart-o"></i></a>
+                                                <img src="assets/img/preview/event-1.jpg" alt="">
+                                                <div class="caption hovered"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Standart Event Name Here</a></h3>
+                                                <p class="caption-category"><i class="fa fa-file-text-o"></i> 15 October at 20:00 - 22:00 on Manhattan / India</p>
+                                                <p class="caption-price">Tickets from ₹49,99</p>
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Tickets &amp; details</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center margin-top">
+                            <a data-animation="fadeInUp" data-animation-delay="100" href="#" class="btn btn-theme btn-theme-grey-dark btn-theme-md"><i class="fa fa-file-text-o"></i> See all events</a>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE -->
+                <section class="page-section light">
+                    <div class="container">
+
+                        <div class="row thumbnails info-thumbs clear">
+                            <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="100">
+                                <div class="thumbnail no-border no-padding text-center">
+                                    <div class="rehex">
+                                        <div class="rehex-deg">
+                                            <div class="rehex-deg">
+                                                <div class="rehex-inner">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-calendar"></i></a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h3 class="caption-title">7/24 Event avaliable</h3>
+                                        <p class="caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                        <p class="caption-more"><a href="#" class="btn btn-theme">Details</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="300">
+                                <div class="thumbnail no-border no-padding text-center">
+                                    <div class="rehex">
+                                        <div class="rehex-deg">
+                                            <div class="rehex-deg">
+                                                <div class="rehex-inner">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-map-marker"></i></a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h3 class="caption-title">Great Locations</h3>
+                                        <p class="caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                        <p class="caption-more"><a href="#" class="btn btn-theme">Details</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="500">
+                                <div class="thumbnail no-border no-padding text-center">
+                                    <div class="rehex">
+                                        <div class="rehex-deg">
+                                            <div class="rehex-deg">
+                                                <div class="rehex-inner">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-users"></i></a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h3 class="caption-title">More Then 200 Speakers</h3>
+                                        <p class="caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                        <p class="caption-more"><a href="#" class="btn btn-theme">Details</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col-sm-6 col-md-3" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="thumbnail no-border no-padding text-center">
+                                    <div class="rehex">
+                                        <div class="rehex-deg">
+                                            <div class="rehex-deg">
+                                                <div class="rehex-inner">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-music"></i></a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h3 class="caption-title">Lets Party After Event</h3>
+                                        <p class="caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                        <p class="caption-more"><a href="#" class="btn btn-theme">Details</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE -->
+                <section class="page-section">
+                    <div class="container">
+
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-h-square fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">OUR COMMUNITY </span>
+                        </h1>
+
+                        <div class=" thumbnails hotels">
+                            <div class="carousel-slider">
+                                <div class="owl-carousel slide-4">
+                                    <div>
+                                        <div class="thumbnail no-border no-padding">
+                                            <div class="media">
+                                                <img src="assets/img/preview/hotel-1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn btn-theme caption-link"><i class="fa fa-file-text"></i> Details</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Community Name Here</a></h3>
+                                               
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">Book</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="thumbnail no-border no-padding">
+                                            <div class="media">
+                                                <img src="assets/img/preview/hotel-1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn btn-theme caption-link"><i class="fa fa-file-text"></i> Details</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Community Name Here</a></h3>
+                                              
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">View More</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="thumbnail no-border no-padding">
+                                            <div class="media">
+                                                <img src="assets/img/preview/hotel-1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn btn-theme caption-link"><i class="fa fa-file-text"></i> Details</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Community Name Here</a></h3>
+                                               
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">View More</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="thumbnail no-border no-padding">
+                                            <div class="media">
+                                                <img src="assets/img/preview/hotel-1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn btn-theme caption-link"><i class="fa fa-file-text"></i> Details</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Community Name Here</a></h3>
+                                               
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">View More</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="thumbnail no-border no-padding">
+                                            <div class="media">
+                                                <img src="assets/img/preview/hotel-1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn btn-theme caption-link"><i class="fa fa-file-text"></i> Details</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Community Name Here</a></h3>
+                                               
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">View More</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="thumbnail no-border no-padding">
+                                            <div class="media">
+                                                <img src="assets/img/preview/hotel-1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn btn-theme caption-link"><i class="fa fa-file-text"></i> Details</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Community Name Here</a></h3>
+                                               
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">View More</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="thumbnail no-border no-padding">
+                                            <div class="media">
+                                                <img src="assets/img/preview/hotel-1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="#" class="btn btn-theme caption-link"><i class="fa fa-file-text"></i> Details</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="caption-title"><a href="#">Community Name Here</a></h3>
+                                                
+                                                <p class="caption-text">Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi.</p>
+                                                <p class="caption-more"><a href="#" class="btn btn-theme">View More</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center margin-top">
+                            <a data-animation="fadeInUp" data-animation-delay="100" href="#" class="btn btn-theme btn-theme-grey-dark btn-theme-md"><i class="fa fa-h-square"></i> See all Community</a>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE -->
+                <section class="page-section color">
+                    <div class="container">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-comments-o fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Testimonials <small> / See What People Say About Us</small></span>
+                        </h1>
+
+                        <!-- Testimonials -->
+                        <div id="testimonials" class="owl-carousel testimonials" data-animation="fadeInUp" data-animation-delay="100">
+
+                            <div class="media testimonial">
+                                <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                                    <div class="rehex testimonial-avatar">
+                                        <div class="rehex-deg">
+                                            <div class="rehex-deg">
+                                                <div class="rehex-inner">
+                                                    <img class="img-responsive" src="assets/img/preview/avatar-1.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec
+                                        cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper
+                                        tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis
+                                        in feugiat mollis, libero eros</p>
+                                    <h4 class="media-heading">by W4W</h4>
+                                </div>
+                            </div>
+
+                            <div class="media testimonial">
+                                <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                                    <div class="rehex testimonial-avatar">
+                                        <div class="rehex-deg">
+                                            <div class="rehex-deg">
+                                                <div class="rehex-inner">
+                                                    <img class="img-responsive" src="assets/img/preview/avatar-2.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec
+                                        cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper
+                                        tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis
+                                        in feugiat mollis, libero eros</p>
+                                    <h4 class="media-heading">by W4W</h4>
+                                </div>
+                            </div>
+
+                            <div class="media testimonial">
+                                <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                                    <div class="rehex testimonial-avatar">
+                                        <div class="rehex-deg">
+                                            <div class="rehex-deg">
+                                                <div class="rehex-inner">
+                                                    <img class="img-responsive" src="assets/img/preview/avatar-3.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec
+                                        cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper
+                                        tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis
+                                        in feugiat mollis, libero eros</p>
+                                    <h4 class="media-heading">by W4W</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Testimonials -->
+
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE -->
+                <section class="page-section no-padding-bottom">
+                    <div class="container">
+                        <div class="section-title pull-left" style="width: auto;">
+                            <span class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-picture-o fa-stack-1x"></i></span></span>
+                        </div>
+                        <ul id="filtrable-gallery" class="filtrable clearfix">
+                            <li class="all current"><a href="#" data-filter="*"> All Gallery</a></li>
+                            <li class="photos"><a href="#" data-filter=".photos">Photos</a></li>
+                            <li class="videos"><a href="#" data-filter=".videos">Videos</a></li>
+                        </ul>
+                        <div class="clear clearfix overflowed"></div>
+                    </div>
+                </section>
+
+                <section class="page-section no-padding-top light filtrable-gallery">
+                    <div class="container">
+
+                        <div class="row thumbnails no-padding gallery isotope isotope-items">
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item photos ">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-1a.jpg" alt="" >
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a href="assets/img/preview/latest-1.jpg"    rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY" class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">CONFERENCE PARTY</h3>
+                                                    <p class="caption-category">in Istanbul</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item videos">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-2a.jpg" alt="">
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a  href="assets/img/preview/latest-2.jpg"   rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY"  class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">FINDING NEW WAY EVENT</h3>
+                                                    <p class="caption-category">in Tokyo</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item gallery">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-3a.jpg" alt="">
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a  href="assets/img/preview/latest-3.jpg"   rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY" class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">PHP MEETING</h3>
+                                                    <p class="caption-category">in Foshan</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item photos gallery">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-4a.jpg" alt="">
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a  href="assets/img/preview/latest-4.jpg"   rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY" class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">CONFERENCE PARTY</h3>
+                                                    <p class="caption-category">in Manhattan</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item photos videos">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-5a.jpg" alt="">
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a  href="assets/img/preview/latest-5.jpg"   rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY" class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">WINNING AWARDS MEETING</h3>
+                                                    <p class="caption-category">in Istanbul</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item videos gallery">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-6a.jpg" alt="">
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a  href="assets/img/preview/latest-6.jpg"   rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY" class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">GALLERY IMAGE NAME</h3>
+                                                    <p class="caption-category">in Tokyo</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item photos videos">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-7a.jpg" alt="">
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a  href="assets/img/preview/latest-7.jpg"   rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY" class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">EVERYBODY HERE EVENT</h3>
+                                                    <p class="caption-category">in Foshan</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 isotope-item gallery">
+                                <div class="thumbnail no-border no-padding">
+                                    <div class="media">
+                                        <img src="assets/img/preview/latest-8a.jpg" alt="">
+                                        <div class="caption hovered">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <p class="caption-buttons">
+                                                        <a href="#" class="btn caption-zoom"><i class="fa fa-heart"></i></a>
+                                                        <a  href="assets/img/preview/latest-8.jpg"   rel="prettyPhoto[gallery2]" title="CONFERENCE PARTY" class="btn caption-link"><i class="fa fa-plus"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="caption hovered back">
+                                            <div class="caption-wrapper div-table">
+                                                <div class="caption-inner div-cell">
+                                                    <h3 class="caption-title">YOGA CLASS MET AT AUGUST</h3>
+                                                    <p class="caption-category">in Manhattan</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="text-center margin-top">
+                            <a data-animation="flipInY" data-animation-delay="500" href="#" class="btn btn-theme btn-theme-grey-dark btn-theme-md"><i class="fa fa-photo"></i> See All Gallery</a>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE SPONSORS -->
+                <section class="page-section" id="sponsors">
+                    <div class="container">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-thumbs-up fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Event Sponsors </span>
+                        </h1>
+                        <div class="partners-carousel" data-animation="fadeInUp" data-animation-delay="300">
+                            <div class="owl-carousel">
+                                <div><a href="#"><img src="assets/img/partner/light/partner-1.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-2.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-3.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-4.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-5.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-6.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-1.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-2.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-3.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-4.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-5.png" alt=""/></a></div>
+                                <div><a href="#"><img src="assets/img/partner/light/partner-6.png" alt=""/></a></div>
+                            </div>
+                        </div>
+                        <div class="text-center margin-top">
+                            <a data-animation="flipInY" data-animation-delay="500" href="#" class="btn btn-theme btn-theme-grey-dark btn-theme-md"><i class="fa fa-thumbs-up"></i> Become a sponsor</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- /PAGE SPONSORS -->
+
+                <!-- PAGE SPEAKERS -->
+                <section class="page-section light" id="speakers">
+                    <div class="container">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-user fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInUp" data-animation-delay="500" class="title-inner">Event Speakers <small> / meet with greaters</small></span>
+                        </h1>
+
+                        <!-- Speakers row -->
+                        <div class="thumbnails clear">
+                            <div class="carousel-slider">
+                                <div class="owl-carousel slide-4">
+                                    <div data-animation="fadeInUp" data-animation-delay="100">
+                                        <div class="thumbnail no-border no-padding text-center">
+                                            <div class="rehex speaker-avatar">
+                                                <div class="rehex-deg">
+                                                    <div class="rehex-deg">
+                                                        <div class="rehex-inner">
+                                                            <div class="media">
+                                                                <img src="assets/img/preview/speaker-1.jpg" alt="">
+                                                                <div class="caption hovered">
+                                                                    <div class="caption-wrapper div-table">
+                                                                        <div class="caption-inner div-cell">
+                                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-link"></i></a></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption before-media">
+                                                <h3 class="caption-title">Speaker name here</h3>
+                                                <p class="caption-category">Co Founder</p>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                                <ul class="social-line list-inline text-center">
+                                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                                                    <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                                    <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- -->
+                                    <div  data-animation="fadeInUp" data-animation-delay="300">
+                                        <div class="thumbnail no-border no-padding text-center">
+                                            <div class="rehex speaker-avatar">
+                                                <div class="rehex-deg">
+                                                    <div class="rehex-deg">
+                                                        <div class="rehex-inner">
+                                                            <div class="media">
+                                                                <img src="assets/img/preview/speaker-2.jpg" alt="">
+                                                                <div class="caption hovered">
+                                                                    <div class="caption-wrapper div-table">
+                                                                        <div class="caption-inner div-cell">
+                                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-link"></i></a></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption before-media">
+                                                <h3 class="caption-title">Speaker name here</h3>
+                                                <p class="caption-category">Developer</p>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                                <ul class="social-line list-inline text-center">
+                                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                                                    <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                                    <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- -->
+                                    <div data-animation="fadeInUp" data-animation-delay="500">
+                                        <div class="thumbnail no-border no-padding text-center">
+                                            <div class="rehex speaker-avatar">
+                                                <div class="rehex-deg">
+                                                    <div class="rehex-deg">
+                                                        <div class="rehex-inner">
+                                                            <div class="media">
+                                                                <img src="assets/img/preview/speaker-3.jpg" alt="">
+                                                                <div class="caption hovered">
+                                                                    <div class="caption-wrapper div-table">
+                                                                        <div class="caption-inner div-cell">
+                                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-link"></i></a></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption before-media">
+                                                <h3 class="caption-title">Speaker name here</h3>
+                                                <p class="caption-category">Designer</p>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                                <ul class="social-line list-inline text-center">
+                                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                                                    <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                                    <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- -->
+                                    <div data-animation="fadeInUp" data-animation-delay="700">
+                                        <div class="thumbnail no-border no-padding text-center">
+                                            <div class="rehex speaker-avatar">
+                                                <div class="rehex-deg">
+                                                    <div class="rehex-deg">
+                                                        <div class="rehex-inner">
+                                                            <div class="media">
+                                                                <img src="assets/img/preview/speaker-4.jpg" alt="">
+                                                                <div class="caption hovered">
+                                                                    <div class="caption-wrapper div-table">
+                                                                        <div class="caption-inner div-cell">
+                                                                            <p class="caption-buttons"><a href="#" class="btn caption-link"><i class="fa fa-link"></i></a></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="caption before-media">
+                                                <h3 class="caption-title">Speaker name here</h3>
+                                                <p class="caption-category">Animator</p>
+                                            </div>
+                                            <div class="caption">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit</p>
+                                                <ul class="social-line list-inline text-center">
+                                                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                                                    <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                                    <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Speakers row -->
+
+                        <div class="text-center margin-top">
+                            <a data-animation="fadeInUp" data-animation-delay="100" href="#" class="btn btn-theme btn-theme-grey-dark btn-theme-md"><i class="fa fa-user"></i> See all speakers</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- /PAGE SPEAKERS -->
+
+                <!-- PAGE -->
+                <section class="page-section color">
+                    <div class="container">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Ex Rosarians Association   <small> / Our Story </small>
+                        </h1>
+                        <p>ERA Alumni is a community of ex-students and staff of Rosary High School, Mazgaon — united by memories, friendship, and school spirit.</p>
+                        <p>
+                            <a class="btn btn-theme" target="_blank" href="#">Read More</a>
+                        </p>
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE -->
+                <section class="page-section">
+                    <div class="container">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-file-text-o fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Recent Blog Posts <small> / get news!</small></span>
+                        </h1>
+                        <div class="post-row">
+                            <div class="carousel-slider">
+                                <div class="owl-carousel slide-3">
+                                    <!-- -->
+                                    <div>
+                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="100">
+                                            <div class="post-media">
+                                                <div class="post-type">
+                                                    <i class="fa fa-video-camera"></i>
+                                                </div>
+                                                <img src="assets/img/preview/recent-post-1.jpg" alt=""/>
+                                            </div>
+                                            <div class="post-header">
+                                                <h2 class="post-title"><a href="#">Standart Blog Post Header Here</a></h2>
+                                                <div class="post-meta">
+                                                    <span class="post-date">
+                                                        Posted on
+                                                        <span class="day">17th</span>
+                                                        <span class="month">May</span>
+                                                        <span class="year">2015</span>
+                                                    </span>
+                                                    <span class="pull-right">
+                                                        <i class="fa fa-comment"></i> <a href="#">12</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="post-body">
+                                                <div class="post-excerpt">
+                                                    <p>Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-footer"></div>
+                                        </article>
+                                    </div>
+
+                                    <!-- -->
+                                    <div>
+                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="300">
+                                            <div class="post-media">
+                                                <div class="post-type">
+                                                    <i class="fa fa-photo"></i>
+                                                </div>
+                                                <img src="assets/img/preview/recent-post-2.jpg" alt=""/>
+                                            </div>
+                                            <div class="post-header">
+                                                <h2 class="post-title"><a href="#">Standart Blog Post Header Here</a></h2>
+                                                <div class="post-meta">
+                                                    <span class="post-date">
+                                                        Posted on
+                                                        <span class="day">17th</span>
+                                                        <span class="month">May</span>
+                                                        <span class="year">2015</span>
+                                                    </span>
+                                                    <span class="pull-right">
+                                                        <i class="fa fa-comment"></i> <a href="#">12</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="post-body">
+                                                <div class="post-excerpt">
+                                                    <p>Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-footer"></div>
+                                        </article>
+                                    </div>
+
+                                    <!-- -->
+                                    <div>
+                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="500">
+                                            <div class="post-media">
+                                                <div class="post-type">
+                                                    <i class="fa fa-music"></i>
+                                                </div>
+                                                <img src="assets/img/preview/recent-post-3.jpg" alt=""/>
+                                            </div>
+                                            <div class="post-header">
+                                                <h2 class="post-title"><a href="#">Standart Blog Post Header Here</a></h2>
+                                                <div class="post-meta">
+                                                    <span class="post-date">
+                                                        Posted on
+                                                        <span class="day">17th</span>
+                                                        <span class="month">May</span>
+                                                        <span class="year">2015</span>
+                                                    </span>
+                                                    <span class="pull-right">
+                                                        <i class="fa fa-comment"></i> <a href="#">12</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="post-body">
+                                                <div class="post-excerpt">
+                                                    <p>Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-footer"></div>
+                                        </article>
+                                    </div>
+
+                                    <!-- -->
+                                    <div>
+                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="500">
+                                            <div class="post-media">
+                                                <div class="post-type">
+                                                    <i class="fa fa-music"></i>
+                                                </div>
+                                                <img src="assets/img/preview/recent-post-1.jpg" alt=""/>
+                                            </div>
+                                            <div class="post-header">
+                                                <h2 class="post-title"><a href="#">Standart Blog Post Header Here</a></h2>
+                                                <div class="post-meta">
+                                                    <span class="post-date">
+                                                        Posted on
+                                                        <span class="day">17th</span>
+                                                        <span class="month">May</span>
+                                                        <span class="year">2015</span>
+                                                    </span>
+                                                    <span class="pull-right">
+                                                        <i class="fa fa-comment"></i> <a href="#">12</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="post-body">
+                                                <div class="post-excerpt">
+                                                    <p>Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-footer"></div>
+                                        </article>
+                                    </div>
+
+                                    <!-- -->
+                                    <div>
+                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="500">
+                                            <div class="post-media">
+                                                <div class="post-type">
+                                                    <i class="fa fa-music"></i>
+                                                </div>
+                                                <img src="assets/img/preview/recent-post-2.jpg" alt=""/>
+                                            </div>
+                                            <div class="post-header">
+                                                <h2 class="post-title"><a href="#">Standart Blog Post Header Here</a></h2>
+                                                <div class="post-meta">
+                                                    <span class="post-date">
+                                                        Posted on
+                                                        <span class="day">17th</span>
+                                                        <span class="month">May</span>
+                                                        <span class="year">2015</span>
+                                                    </span>
+                                                    <span class="pull-right">
+                                                        <i class="fa fa-comment"></i> <a href="#">12</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="post-body">
+                                                <div class="post-excerpt">
+                                                    <p>Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-footer"></div>
+                                        </article>
+                                    </div>
+
+                                    <!-- -->
+                                    <div>
+                                        <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="500">
+                                            <div class="post-media">
+                                                <div class="post-type">
+                                                    <i class="fa fa-music"></i>
+                                                </div>
+                                                <img src="assets/img/preview/recent-post-3.jpg" alt=""/>
+                                            </div>
+                                            <div class="post-header">
+                                                <h2 class="post-title"><a href="#">Standart Blog Post Header Here</a></h2>
+                                                <div class="post-meta">
+                                                    <span class="post-date">
+                                                        Posted on
+                                                        <span class="day">17th</span>
+                                                        <span class="month">May</span>
+                                                        <span class="year">2015</span>
+                                                    </span>
+                                                    <span class="pull-right">
+                                                        <i class="fa fa-comment"></i> <a href="#">12</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="post-body">
+                                                <div class="post-excerpt">
+                                                    <p>Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-footer"></div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center margin-top">
+                            <a data-animation="flipInY" data-animation-delay="100" href="#" class="btn btn-theme btn-theme-grey-dark btn-theme-md"><i class="fa fa-file-text-o"></i> &nbsp;See all news</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE -->
+                <section class="page-section light create-new-event">
+                    <div class="container text-center">
+                        <h1 class="section-title">Support a Cause, Change a Life</h1>
+                        <p>Every contribution, big or small, helps us bring hope and change to those who need it most. Join hands with us and make a difference today.</p>
+                        <div><a href="#" class="btn btn-theme btn-theme-md">DONATE NOW</a></div>
+                    </div>
+                </section>
+                <!-- /PAGE -->
+
+                <!-- PAGE LOCATION -->
+                <section class="page-section" id="location">
+                    <div class="container full-width gmap-background">
+
+                        <div class="container">
+                            <div class="on-gmap color">
+                                <h1 class="section-title">
+                                    <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-map-marker fa-stack-1x"></i></span></span>
+                                    <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Event Location</span>
+                                </h1>
+                                <p data-animation="fadeInUp" data-animation-delay="200" class="text-uppercase">Apple Store SOHO‎ <br/>
+                                    Rosary High School Hall, <br/>
+                                    Dockyard, Mazgaon, Mumbai - 400010<br/>
+                                    (+91)-8689968989</p>
+                                <p><a href="mailto:era@exrosarians.com">era@exrosarians.com</a></p>
+                                <a href="#" class="btn btn-theme"
+                                   data-animation="flipInY" data-animation-delay="300">Get Direction <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Google map -->
+                        <div class="google-map">
+                            <!--<div id="map-canvas"></div>-->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.1946577849876!2d72.8449897704485!3d18.967008730031665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce49e9b1282d%3A0xa8b26eeea1008aad!2sRosary%20High%20School!5e0!3m2!1sen!2sin!4v1749020842870!5m2!1sen!2sin" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!-- /Google map -->
+
+                    </div>
+                </section>
+                <!-- /PAGE LOCATION -->
+
+
+            </div>
+            <!-- /Content area -->
+@yield('footer')
+
+            <div class="to-top"><i class="fa fa-angle-up"></i></div>
+
+
+        </div>
+        <!-- Popup: Login -->
+        <div class="modal fade login-register" id="popup-reg" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" id="main-slider">                 
+                <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="form-background">
+                
+
+                    <div class="popup-form col-sm-12">
+                        <div class="form-header color">
+                            <h1 class="section-title">
+                                <span class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                                <span class="title-inner">Register</span>
+                            </h1>
+
+                        </div>
+                            
+<div class="row justify-content-center">
+<div class="col-md-12">
+<div class="card">
+
+<article class="card-body">
+<form>
+    <div class="form-row">
+        <div class=" form-group cityf col-md-6">
+            <label>First name </label>   
+            <input type="text" class="form-control" placeholder="">
+        </div> <!-- form-group end.// -->
+        <div class=" form-group col-md-6">
+            <label>Last name</label>
+            <input type="text" class="form-control" placeholder=" ">
+        </div> <!-- form-group end.// -->
+    </div> <!-- form-row end.// -->
+    <div class="form-group">
+        <label>Email address</label>
+        <input type="email" class="form-control" placeholder="">
+        <!-- <small class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+    </div> <!-- form-group end.// -->
+    <div class="form-group">
+            <label class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" value="option1">
+          <span class="form-check-label"> Male </span>
+        </label>
+        <label class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" value="option2">
+          <span class="form-check-label"> Female</span>
+        </label>
+    </div> <!-- form-group end.// -->
+    <div class="form-row">
+        <div class="form-group cityf col-md-6">
+          <label>City</label>
+          <input type="text" class="form-control">
+        </div> <!-- form-group end.// -->
+        <div class="form-group col-md-6">
+          <label>Country</label>
+          <select id="inputState" class="form-control">
+            <option> Choose...</option>
+              <option>Uzbekistan</option>
+              <option>Russia</option>
+              <option selected="">United States</option>
+              <option>India</option>
+              <option>Afganistan</option>
+          </select>
+        </div> <!-- form-group end.// -->
+    </div> <!-- form-row.// -->
+    <div class="form-group">
+        <label>Create password</label>
+        <input class="form-control" type="password">
+    </div> <!-- form-group end.// -->  
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Register  </button>
+    </div> <!-- form-group// -->      
+    <!-- <small class="text-muted">By clicking the 'Sign Up' button, you confirm that you accept our <br> Terms of use and Privacy Policy.</small>                                           -->
+</form>
+</article> <!-- card-body end .// -->
+<div class="border-top card-body text-center">Have an account? <a href="">Log In</a></div>
+</div> <!-- card.// -->
+</div> <!-- col.//-->
+
+</div> <!-- row.//-->
+
+           
+                    </div> 
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /Popup: Login -->
+
+
+
+
+          <!-- Popup: Login -->
+        <div class="modal fade login-register" id="popup-login" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" id="main-slider">                 
+                <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="form-background">
+                
+
+                    <div class="popup-form col-sm-12">
+                        <div class="form-header color">
+                            <h1 class="section-title">
+                                <span class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                                <span class="title-inner">Login</span>
+                            </h1>
+
+                        </div>
+                            
+<div class="row justify-content-center">
+<div class="col-md-12">
+<div class="card">
+
+<article class="card-body">
+<form>
+   
+    <div class="form-group">
+        <label>Email address</label>
+        <input type="email" class="form-control" placeholder="">
+     
+    </div> <!-- form-group end.// -->
+ 
+  
+    <div class="form-group cityf col-md-6">
+        <label>Password</label>
+        <input class="form-control" type="password">
+    </div> <!-- form-group end.// -->  
+     <div class="form-group col-md-6">
+        <label>Confirm password</label>
+        <input class="form-control" type="password">
+    </div> <!-- form-group end.// -->  
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+    </div> <!-- form-group// -->      
+    <!-- <small class="text-muted">By clicking the 'Sign Up' button, you confirm that you accept our <br> Terms of use and Privacy Policy.</small>                                           -->
+</form>
+</article> <!-- card-body end .// -->
+<div class="border-top card-body text-center">Create a new account? <a href="">Register</a></div>
+</div> <!-- card.// -->
+</div> <!-- col.//-->
+
+</div> <!-- row.//-->
+
+           
+                    </div> 
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /Popup: Login -->
+
+
+
+
+       <!-- Popup: donation -->
+<div class="modal fade login-register" id="popup-donation" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" id="main-slider">
+        <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="form-background">
+
+            <div class="popup-form col-sm-12">
+                <div class="form-header color">
+                    <h1 class="section-title">
+                        <span class="icon-inner">
+                            <span class="fa-stack">
+                                <i class="fa rhex fa-stack-2x"></i>
+                                <i class="fa fa-heart fa-stack-1x"></i>
+                            </span>
+                        </span>
+                        <span class="title-inner">Make a Donation</span>
+                    </h1>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <article class="card-body">
+                                <form>
+
+                                    <div class="form-group">
+                                        <label>Full Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter your name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Email address</label>
+                                        <input type="email" class="form-control" placeholder="Enter your email">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Phone Number</label>
+                                        <input type="text" class="form-control" placeholder="Enter phone number">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Donation Amount (INR)</label>
+                                        <input type="number" class="form-control" placeholder="e.g. 500">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Message (Optional)</label>
+                                        <textarea class="form-control" rows="3" placeholder="Your message..."></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block"> Donate Now </button>
+                                    </div>
+                                </form>
+                            </article>
+                            <div class="border-top card-body text-center">
+                                Want to help more? <a href="#">Join Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+
+        </div>
+    </div>
+</div>
+
+
+    <!-- /Wrap all content -->
+
+    <!-- JS Global -->
+
+    <!--[if lt IE 9]><script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script><![endif]-->
+    
+    <script src="assets/plugins/jquery/jquery-2.1.1.min.js"></script>
+    <script src="assets/plugins/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <script src="assets/plugins/modernizr.custom.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/superfish/js/superfish.js"></script>
+    <script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/plugins/placeholdem.min.js"></script>
+    <script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+    <script src="assets/plugins/jquery.easing.min.js"></script>
+    <script src="assets/plugins/smooth-scrollbar.min.js"></script>
+
+    <!-- JS Page Level -->
+    <script src="assets/plugins/owlcarousel2/owl.carousel.min.js"></script>
+    <script src="assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="assets/plugins/countdown/jquery.plugin.min.js"></script>
+    <script src="assets/plugins/countdown/jquery.countdown.min.js"></script>
+    <script src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+    <!--<script src="assets/js/theme-ajax-mail.js"></script>-->
+    <script src="assets/js/theme.js"></script>
+    
+
+
+    <script type="text/javascript">
+        "use strict";
+        jQuery(document).ready(function () {
+            theme.init();
+            theme.initMainSlider();
+            theme.initCountDown();
+            theme.initPartnerSlider();
+            theme.initTestimonials();
+            theme.initCorouselSlider4();
+            theme.initCorouselSlider3();
+            theme.initGoogleMap();
+        });
+        jQuery(window).load(function () {
+            theme.initAnimation();
+        });
+
+        jQuery(window).load(function () {
+            jQuery('body').scrollspy({offset: 100, target: '.navigation'});
+        });
+        jQuery(window).load(function () {
+            jQuery('body').scrollspy('refresh');
+        });
+        jQuery(window).resize(function () {
+            jQuery('body').scrollspy('refresh');
+        });
+
+        jQuery(document).ready(function () {
+            theme.onResize();
+        });
+        jQuery(window).load(function () {
+            theme.onResize();
+        });
+        jQuery(window).resize(function () {
+            theme.onResize();
+        });
+
+        jQuery(window).load(function () {
+            if (location.hash != '') {
+                var hash = '#' + window.location.hash.substr(1);
+                if (hash.length) {
+                    jQuery('html,body').delay(0).animate({
+                        scrollTop: jQuery(hash).offset().top - 44 + 'px'
+                    }, {
+                        duration: 1200,
+                        easing: "easeInOutExpo"
+                    });
+                }
+            }
+        });
+
+    </script>
+
+</body>
+</html>
